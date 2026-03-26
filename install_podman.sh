@@ -1,3 +1,4 @@
+# Supports Ubuntu 24.04
 #!/bin/bash
 
 # Update package list
