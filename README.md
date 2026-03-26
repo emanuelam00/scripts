@@ -1,6 +1,6 @@
 # Ubuntu Static IP & Hostname Setup Script
 
-This repository contains a Bash script designed to automate the transition from a DHCP-based (or Cloud-Init managed) network configuration to a **fixed static IP** and a custom hostname on Ubuntu systems.
+This repository contains a Bash script designed to automate the transition from a DHCP-based (or Cloud-Init managed) network configuration to a **fixed static IP** and a custom hostname on Ubuntu VMs.
 
 ## 🚀 Overview
 
