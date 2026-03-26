@@ -1,3 +1,4 @@
+# Supports Ubuntu 22.04, 24.04
 #!/bin/bash
 
 # Remove any existing Node.js packages
