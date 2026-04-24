@@ -49,4 +49,9 @@ EOF"
 # 6. Apply changes
 sudo netplan apply
 
+# 7. Regenerate ssh server keys (needed on ubuntu 26.04
+for type in ed25519; do  # add 'rsa dsa ecdsa' for type if needed
+    ssh-keygen -t ${type} -N "" -f /etc/ssh/ssh_host_${type}_key
+done
+
 echo "Configuration complete! Your IP is now fixed at $CURRENT_IP."
